@@ -14,6 +14,15 @@
 		229B3DFC27FC2F36007AA852 /* BT1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3DFA27FC2F36007AA852 /* BT1.swift */; };
 		229B3E0027FC2F76007AA852 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3DFF27FC2F76007AA852 /* UserView.swift */; };
 		229B3E0227FC32B6007AA852 /* BT5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E0127FC32B6007AA852 /* BT5.swift */; };
+		229B3E2227FD652A007AA852 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E2027FD652A007AA852 /* HomeVC.swift */; };
+		229B3E2327FD652A007AA852 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229B3E2127FD652A007AA852 /* HomeVC.xib */; };
+		229B3E2627FD653E007AA852 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E2427FD653E007AA852 /* SettingVC.swift */; };
+		229B3E2727FD653E007AA852 /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229B3E2527FD653E007AA852 /* SettingVC.xib */; };
+		229B3E2A27FD6560007AA852 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E2827FD6560007AA852 /* VideoVC.swift */; };
+		229B3E2B27FD6560007AA852 /* VideoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229B3E2927FD6560007AA852 /* VideoVC.xib */; };
+		229B3E2D27FD6C99007AA852 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E2C27FD6C99007AA852 /* TabBarViewController.swift */; };
+		229B3E3627FD70BE007AA852 /* FriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E3427FD70BE007AA852 /* FriendsVC.swift */; };
+		229B3E3727FD70BE007AA852 /* FriendsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229B3E3527FD70BE007AA852 /* FriendsVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		229B3DFA27FC2F36007AA852 /* BT1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BT1.swift; sourceTree = "<group>"; };
 		229B3DFF27FC2F76007AA852 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		229B3E0127FC32B6007AA852 /* BT5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BT5.swift; sourceTree = "<group>"; };
+		229B3E2027FD652A007AA852 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		229B3E2127FD652A007AA852 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		229B3E2427FD653E007AA852 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		229B3E2527FD653E007AA852 /* SettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingVC.xib; sourceTree = "<group>"; };
+		229B3E2827FD6560007AA852 /* VideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		229B3E2927FD6560007AA852 /* VideoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoVC.xib; sourceTree = "<group>"; };
+		229B3E2C27FD6C99007AA852 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		229B3E3427FD70BE007AA852 /* FriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsVC.swift; sourceTree = "<group>"; };
+		229B3E3527FD70BE007AA852 /* FriendsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +76,14 @@
 		229B3DE427FC2F06007AA852 /* Sang.Dinh.V */ = {
 			isa = PBXGroup;
 			children = (
+				229B3E1527FD6413007AA852 /* TabBar */,
 				229B3DF927FC2F0E007AA852 /* BTCustomView */,
 				229B3DE527FC2F06007AA852 /* AppDelegate.swift */,
 				229B3DEB27FC2F06007AA852 /* Main.storyboard */,
 				229B3DEE27FC2F07007AA852 /* Assets.xcassets */,
 				229B3DF027FC2F07007AA852 /* LaunchScreen.storyboard */,
 				229B3DF327FC2F07007AA852 /* Info.plist */,
+				229B3E2C27FD6C99007AA852 /* TabBarViewController.swift */,
 			);
 			path = Sang.Dinh.V;
 			sourceTree = "<group>";
@@ -84,6 +104,53 @@
 				229B3DFF27FC2F76007AA852 /* UserView.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		229B3E1527FD6413007AA852 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				229B3E3327FD70A4007AA852 /* Friends */,
+				229B3E1827FD6487007AA852 /* Home  */,
+				229B3E1727FD647C007AA852 /* Setting */,
+				229B3E1627FD6475007AA852 /* Video  */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		229B3E1627FD6475007AA852 /* Video  */ = {
+			isa = PBXGroup;
+			children = (
+				229B3E2827FD6560007AA852 /* VideoVC.swift */,
+				229B3E2927FD6560007AA852 /* VideoVC.xib */,
+			);
+			path = "Video ";
+			sourceTree = "<group>";
+		};
+		229B3E1727FD647C007AA852 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				229B3E2427FD653E007AA852 /* SettingVC.swift */,
+				229B3E2527FD653E007AA852 /* SettingVC.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		229B3E1827FD6487007AA852 /* Home  */ = {
+			isa = PBXGroup;
+			children = (
+				229B3E2027FD652A007AA852 /* HomeVC.swift */,
+				229B3E2127FD652A007AA852 /* HomeVC.xib */,
+			);
+			path = "Home ";
+			sourceTree = "<group>";
+		};
+		229B3E3327FD70A4007AA852 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				229B3E3427FD70BE007AA852 /* FriendsVC.swift */,
+				229B3E3527FD70BE007AA852 /* FriendsVC.xib */,
+			);
+			path = Friends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				229B3DF227FC2F07007AA852 /* LaunchScreen.storyboard in Resources */,
+				229B3E2327FD652A007AA852 /* HomeVC.xib in Resources */,
+				229B3E3727FD70BE007AA852 /* FriendsVC.xib in Resources */,
 				229B3DEF27FC2F07007AA852 /* Assets.xcassets in Resources */,
 				229B3DED27FC2F06007AA852 /* Main.storyboard in Resources */,
+				229B3E2B27FD6560007AA852 /* VideoVC.xib in Resources */,
+				229B3E2727FD653E007AA852 /* SettingVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,9 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229B3E2A27FD6560007AA852 /* VideoVC.swift in Sources */,
 				229B3DFC27FC2F36007AA852 /* BT1.swift in Sources */,
+				229B3E2627FD653E007AA852 /* SettingVC.swift in Sources */,
 				229B3E0027FC2F76007AA852 /* UserView.swift in Sources */,
+				229B3E2D27FD6C99007AA852 /* TabBarViewController.swift in Sources */,
+				229B3E3627FD70BE007AA852 /* FriendsVC.swift in Sources */,
 				229B3DE627FC2F06007AA852 /* AppDelegate.swift in Sources */,
+				229B3E2227FD652A007AA852 /* HomeVC.swift in Sources */,
 				229B3E0227FC32B6007AA852 /* BT5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,7 @@ class BT5: UIViewController {
         view.backgroundColor = .white
         let userView1 = UserView(frame: CGRect(x: 0, y: 0, width: 100, height: 130))
         userView1.userName?.text = "Name 1"
-        userView1.buttonDidClick()
+
             
         view.addSubview(userView1)
         let userView2 = UserView(frame: CGRect(x: 120, y: 0, width: 100, height: 130))

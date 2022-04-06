@@ -16,7 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController =  BT5()
+//        let homeVC = HomeVC()
+//        let homeNV = UINavigationController(rootViewController: homeVC)
+//        homeNV.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "home.png"), selectedImage: UIImage(named: "home.png"))
+//
+//        let friendsVC = FriendsVC()
+//        let friendsVN = UINavigationController(rootViewController: friendsVC)
+//        friendsVN.tabBarItem = UITabBarItem(title: "Friends", image: UIImage(named: "friends"), selectedImage: UIImage(named: "friends"))
+//        let settingVC = SettingVC()
+//        let settingVN = UINavigationController(rootViewController: settingVC)
+//        settingVN.tabBarItem = UITabBarItem(title: "Setting", image: UIImage(named: "setting"), selectedImage: UIImage(named: "setting"))
+//        let videoVC = VideoVC()
+//        let videoVN = UINavigationController(rootViewController: videoVC)
+//        videoVN.tabBarItem = UITabBarItem(title: "Video", image: UIImage(named: "video"), selectedImage: UIImage(named: "video"))
+//        let tabbar = UITabBarController()
+//        tabbar.viewControllers = [homeNV,friendsVN,settingVN,videoVN]
+        let tabbar = TabBarViewController()
+        window?.rootViewController =  tabbar
         return true
     }
 
