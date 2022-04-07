@@ -25,8 +25,7 @@ class UserView: UIView {
         userName?.text = "User Name"
         userName?.backgroundColor = .lightGray
         userName?.textColor = .red
-        addSubview(userName!)
-    
+        addSubview(userName!)    
 //        Add button
         let button = UIButton(frame: CGRect(x: 50, y: 100, width: 200, height: 250))
         button.backgroundColor = .clear

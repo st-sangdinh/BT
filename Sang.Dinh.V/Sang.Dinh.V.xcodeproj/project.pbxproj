@@ -23,6 +23,11 @@
 		229B3E2D27FD6C99007AA852 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E2C27FD6C99007AA852 /* TabBarViewController.swift */; };
 		229B3E3627FD70BE007AA852 /* FriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E3427FD70BE007AA852 /* FriendsVC.swift */; };
 		229B3E3727FD70BE007AA852 /* FriendsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229B3E3527FD70BE007AA852 /* FriendsVC.xib */; };
+		229B3E4527FED51A007AA852 /* ListStudentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E4327FED51A007AA852 /* ListStudentsVC.swift */; };
+		229B3E4627FED51A007AA852 /* ListStudentsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229B3E4427FED51A007AA852 /* ListStudentsVC.xib */; };
+		229B3E4927FED53A007AA852 /* StudentDetaillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E4727FED53A007AA852 /* StudentDetaillVC.swift */; };
+		229B3E4A27FED53A007AA852 /* StudentDetaillVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229B3E4827FED53A007AA852 /* StudentDetaillVC.xib */; };
+		229B3E4C27FED7E7007AA852 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E4B27FED7E7007AA852 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,11 @@
 		229B3E2C27FD6C99007AA852 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		229B3E3427FD70BE007AA852 /* FriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsVC.swift; sourceTree = "<group>"; };
 		229B3E3527FD70BE007AA852 /* FriendsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsVC.xib; sourceTree = "<group>"; };
+		229B3E4327FED51A007AA852 /* ListStudentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStudentsVC.swift; sourceTree = "<group>"; };
+		229B3E4427FED51A007AA852 /* ListStudentsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListStudentsVC.xib; sourceTree = "<group>"; };
+		229B3E4727FED53A007AA852 /* StudentDetaillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetaillVC.swift; sourceTree = "<group>"; };
+		229B3E4827FED53A007AA852 /* StudentDetaillVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentDetaillVC.xib; sourceTree = "<group>"; };
+		229B3E4B27FED7E7007AA852 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,7 @@
 		229B3DE427FC2F06007AA852 /* Sang.Dinh.V */ = {
 			isa = PBXGroup;
 			children = (
+				229B3E3827FED3E7007AA852 /* Delegate */,
 				229B3E1527FD6413007AA852 /* TabBar */,
 				229B3DF927FC2F0E007AA852 /* BTCustomView */,
 				229B3DE527FC2F06007AA852 /* AppDelegate.swift */,
@@ -153,6 +164,34 @@
 			path = Friends;
 			sourceTree = "<group>";
 		};
+		229B3E3827FED3E7007AA852 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				229B3E4227FED4EF007AA852 /* StudentDetaill */,
+				229B3E4127FED4DD007AA852 /* ListStudents */,
+				229B3E4B27FED7E7007AA852 /* Student.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		229B3E4127FED4DD007AA852 /* ListStudents */ = {
+			isa = PBXGroup;
+			children = (
+				229B3E4327FED51A007AA852 /* ListStudentsVC.swift */,
+				229B3E4427FED51A007AA852 /* ListStudentsVC.xib */,
+			);
+			path = ListStudents;
+			sourceTree = "<group>";
+		};
+		229B3E4227FED4EF007AA852 /* StudentDetaill */ = {
+			isa = PBXGroup;
+			children = (
+				229B3E4727FED53A007AA852 /* StudentDetaillVC.swift */,
+				229B3E4827FED53A007AA852 /* StudentDetaillVC.xib */,
+			);
+			path = StudentDetaill;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,6 +252,8 @@
 			files = (
 				229B3DF227FC2F07007AA852 /* LaunchScreen.storyboard in Resources */,
 				229B3E2327FD652A007AA852 /* HomeVC.xib in Resources */,
+				229B3E4A27FED53A007AA852 /* StudentDetaillVC.xib in Resources */,
+				229B3E4627FED51A007AA852 /* ListStudentsVC.xib in Resources */,
 				229B3E3727FD70BE007AA852 /* FriendsVC.xib in Resources */,
 				229B3DEF27FC2F07007AA852 /* Assets.xcassets in Resources */,
 				229B3DED27FC2F06007AA852 /* Main.storyboard in Resources */,
@@ -228,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229B3E4527FED51A007AA852 /* ListStudentsVC.swift in Sources */,
 				229B3E2A27FD6560007AA852 /* VideoVC.swift in Sources */,
 				229B3DFC27FC2F36007AA852 /* BT1.swift in Sources */,
+				229B3E4C27FED7E7007AA852 /* Student.swift in Sources */,
 				229B3E2627FD653E007AA852 /* SettingVC.swift in Sources */,
 				229B3E0027FC2F76007AA852 /* UserView.swift in Sources */,
 				229B3E2D27FD6C99007AA852 /* TabBarViewController.swift in Sources */,
@@ -237,6 +280,7 @@
 				229B3DE627FC2F06007AA852 /* AppDelegate.swift in Sources */,
 				229B3E2227FD652A007AA852 /* HomeVC.swift in Sources */,
 				229B3E0227FC32B6007AA852 /* BT5.swift in Sources */,
+				229B3E4927FED53A007AA852 /* StudentDetaillVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

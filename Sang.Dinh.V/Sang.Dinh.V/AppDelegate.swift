@@ -31,8 +31,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        videoVN.tabBarItem = UITabBarItem(title: "Video", image: UIImage(named: "video"), selectedImage: UIImage(named: "video"))
 //        let tabbar = UITabBarController()
 //        tabbar.viewControllers = [homeNV,friendsVN,settingVN,videoVN]
-        let tabbar = TabBarViewController()
-        window?.rootViewController =  tabbar
+//        let tabbar = TabBarViewController()
+        let listStudents = ListStudentsVC()
+        let navi = UINavigationController(rootViewController: listStudents)
+        window?.rootViewController =  navi
+        window?.makeKeyAndVisible()
         return true
     }
 
