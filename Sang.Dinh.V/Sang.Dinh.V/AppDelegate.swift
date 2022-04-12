@@ -32,8 +32,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let tabbar = UITabBarController()
 //        tabbar.viewControllers = [homeNV,friendsVN,settingVN,videoVN]
 //        let tabbar = TabBarViewController()
-        let listStudents = ListStudentsVC()
-        let navi = UINavigationController(rootViewController: listStudents)
+//        let listStudents = ListStudentsVC()
+        let tableView = CustomTableVC()
+        let navi = UINavigationController(rootViewController: tableView)
         window?.rootViewController =  navi
         window?.makeKeyAndVisible()
         return true

@@ -14,6 +14,7 @@ class ListStudentsVC: UIViewController, StdentDetaillDelegate {
         }else{
             name2.text = student.name
         }
+        listStudents = [Student(id: student.id, name: student.name)]
     }
     
     
@@ -28,7 +29,7 @@ class ListStudentsVC: UIViewController, StdentDetaillDelegate {
         title = "List Students"
         listStudents = [Student(id: 0, name: "Sang"),
                         Student(id: 1, name: "Sang1")]
-        
+//       In ra data của 2 item
         listStudents.forEach {student in
             if(student.id == 0){
                 id1.text = "\(student.id)"
