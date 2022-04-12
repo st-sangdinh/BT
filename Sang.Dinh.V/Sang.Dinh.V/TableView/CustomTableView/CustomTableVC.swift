@@ -7,7 +7,13 @@
 
 import UIKit
 
-class CustomTableVC: UIViewController {
+class CustomTableVC: UIViewController, callButton {
+    func callName(name: CustomTableViewCell) {
+   
+        let callName = name.nameLabel.text
+        print("Gọi cho \(callName ?? "")")
+    }
+    
 
     @IBOutlet weak var tableView: UITableView!
     var listStudents: [Student] = []
@@ -34,7 +40,7 @@ extension CustomTableVC: UITableViewDataSource{
         if(section == 0){
             return 3
         }else{
-            return 2
+            return 3
         }
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -47,16 +53,14 @@ extension CustomTableVC: UITableViewDataSource{
             return cell
         }else{
             listStudents = [Student(id: 0, name: "ABCD"),
-                            Student(id: 1, name: "Sang")]
+                            Student(id: 1, name: "Sang"),
+                            Student(id: 1, name: "Sang2")
+            ]
             let cell = tableView.dequeueReusableCell(withIdentifier: "CustomTableViewCell", for: indexPath) as? CustomTableViewCell
             let students = Student(id: listStudents[indexPath.row].id, name: "\(listStudents[indexPath.row].name)")
-//            for st in listStudents {
-//                let student = Student(id: st.id, name: st.name)
-//                cell?.setData(student)
-//            }
             cell?.setData(students)
+            cell?.delegate = self
             return cell ?? UITableViewCell()
-        
         }
         
     }
@@ -83,7 +87,7 @@ extension CustomTableVC: UITableViewDelegate {
         50
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        100
+        50
     }
 
 }

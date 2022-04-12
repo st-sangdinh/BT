@@ -6,13 +6,14 @@
 //
 
 import UIKit
-
+protocol callButton: class{
+    func callName(name: CustomTableViewCell)
+}
 class CustomTableViewCell: UITableViewCell {
-
     @IBOutlet weak var avatarIMG: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var noteLable: UILabel!
-    
+    weak var delegate: callButton?
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,12 +22,16 @@ class CustomTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
     func setData(_ student: Student){
         avatarIMG.image = UIImage(named: "ava")
         nameLabel.text = student.name
         noteLable.text = "\(student.id)"
+    }
+    
+    @IBAction func button(_ sender: Any) {
+
+        delegate?.callName(name: self)
     }
     
 }

@@ -27,7 +27,7 @@ class StudentDetaillVC: UIViewController {
     @IBAction func didTapSaveButton(_ button: UIButton){
         print("UpdateName")
         student.name = nameTextFileld.text ?? ""
-//        Tạo student
+//        Tạo student, thực hiện chức năng của delegate
         delegate?.updateStudent(student: student)
         navigationController?.popViewController(animated: true)
     }

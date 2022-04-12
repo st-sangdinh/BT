@@ -51,6 +51,7 @@ class ListStudentsVC: UIViewController, StdentDetaillDelegate {
         }
         let detailVC = StudentDetaillVC()
         detailVC.student = listStudents[index]
+//        Uỷ quyền thực hiện công việc
         detailVC.delegate = self
         navigationController?.pushViewController(detailVC, animated: true)
     }
