@@ -7,7 +7,7 @@
 
 import UIKit
 
-@main
+ @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -15,8 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.makeKeyAndVisible()
-        let tableView = CustomTableVC()
+        let tableView = BT6ViewController()
         let navi = UINavigationController(rootViewController: tableView)
         window?.rootViewController =  navi
         window?.makeKeyAndVisible()

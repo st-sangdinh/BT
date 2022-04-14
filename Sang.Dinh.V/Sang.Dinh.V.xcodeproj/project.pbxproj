@@ -27,13 +27,25 @@
 		229B3E4927FED53A007AA852 /* StudentDetaillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E4727FED53A007AA852 /* StudentDetaillVC.swift */; };
 		229B3E4A27FED53A007AA852 /* StudentDetaillVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229B3E4827FED53A007AA852 /* StudentDetaillVC.xib */; };
 		229B3E4C27FED7E7007AA852 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B3E4B27FED7E7007AA852 /* Student.swift */; };
-		22F2B72727FEFCFA002D3A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F2B72627FEFCF9002D3A36 /* Main.storyboard */; };
 		22F2B72B28003983002D3A36 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2B72928003983002D3A36 /* TableTableViewController.swift */; };
 		22F2B72C28003983002D3A36 /* TableTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F2B72A28003983002D3A36 /* TableTableViewController.xib */; };
 		22F2B73128003DEE002D3A36 /* CustomTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2B72F28003DEE002D3A36 /* CustomTableVC.swift */; };
 		22F2B73228003DEE002D3A36 /* CustomTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F2B73028003DEE002D3A36 /* CustomTableVC.xib */; };
 		22F2B73628005777002D3A36 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2B73428005777002D3A36 /* CustomTableViewCell.swift */; };
 		22F2B73728005777002D3A36 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F2B73528005777002D3A36 /* CustomTableViewCell.xib */; };
+		22F6F7DF280576D7002067DE /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F7DD280576D7002067DE /* CollectionVC.swift */; };
+		22F6F7E0280576D7002067DE /* CollectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F6F7DE280576D7002067DE /* CollectionVC.xib */; };
+		22F6F7E428057A64002067DE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F7E228057A63002067DE /* CollectionViewCell.swift */; };
+		22F6F7E528057A64002067DE /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F6F7E328057A63002067DE /* CollectionViewCell.xib */; };
+		22F6F8022805B595002067DE /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F8002805B595002067DE /* HeaderCollectionReusableView.swift */; };
+		22F6F8032805B595002067DE /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F6F8012805B595002067DE /* HeaderCollectionReusableView.xib */; };
+		22F6F8062805B5EF002067DE /* FooterCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F8042805B5EF002067DE /* FooterCollectionReusableView.swift */; };
+		22F6F8072805B5EF002067DE /* FooterCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F6F8052805B5EF002067DE /* FooterCollectionReusableView.xib */; };
+		22F6F8092805BB48002067DE /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F8082805BB48002067DE /* Member.swift */; };
+		22F6F81228066944002067DE /* BT6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F81028066944002067DE /* BT6ViewController.swift */; };
+		22F6F81328066944002067DE /* BT6ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F6F81128066944002067DE /* BT6ViewController.xib */; };
+		22F6F8172806795F002067DE /* HeaderCRV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6F8152806795F002067DE /* HeaderCRV.swift */; };
+		22F6F8182806795F002067DE /* HeaderCRV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F6F8162806795F002067DE /* HeaderCRV.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,13 +71,25 @@
 		229B3E4727FED53A007AA852 /* StudentDetaillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetaillVC.swift; sourceTree = "<group>"; };
 		229B3E4827FED53A007AA852 /* StudentDetaillVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentDetaillVC.xib; sourceTree = "<group>"; };
 		229B3E4B27FED7E7007AA852 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
-		22F2B72627FEFCF9002D3A36 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		22F2B72928003983002D3A36 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
 		22F2B72A28003983002D3A36 /* TableTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableTableViewController.xib; sourceTree = "<group>"; };
 		22F2B72F28003DEE002D3A36 /* CustomTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableVC.swift; sourceTree = "<group>"; };
 		22F2B73028003DEE002D3A36 /* CustomTableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableVC.xib; sourceTree = "<group>"; };
 		22F2B73428005777002D3A36 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		22F2B73528005777002D3A36 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		22F6F7DD280576D7002067DE /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		22F6F7DE280576D7002067DE /* CollectionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionVC.xib; sourceTree = "<group>"; };
+		22F6F7E228057A63002067DE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		22F6F7E328057A63002067DE /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		22F6F8002805B595002067DE /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		22F6F8012805B595002067DE /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		22F6F8042805B5EF002067DE /* FooterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCollectionReusableView.swift; sourceTree = "<group>"; };
+		22F6F8052805B5EF002067DE /* FooterCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterCollectionReusableView.xib; sourceTree = "<group>"; };
+		22F6F8082805BB48002067DE /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		22F6F81028066944002067DE /* BT6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BT6ViewController.swift; sourceTree = "<group>"; };
+		22F6F81128066944002067DE /* BT6ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BT6ViewController.xib; sourceTree = "<group>"; };
+		22F6F8152806795F002067DE /* HeaderCRV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCRV.swift; sourceTree = "<group>"; };
+		22F6F8162806795F002067DE /* HeaderCRV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCRV.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2229F11C28056D70002AA65D /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				22F6F7FF2805B56E002067DE /* Footer */,
+				22F6F7FE2805B564002067DE /* Header */,
+				22F6F7E1280579E6002067DE /* Cell */,
+				22F6F7DD280576D7002067DE /* CollectionVC.swift */,
+				22F6F7DE280576D7002067DE /* CollectionVC.xib */,
+				22F6F8082805BB48002067DE /* Member.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		229B3DD927FC2F06007AA852 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +135,8 @@
 		229B3DE427FC2F06007AA852 /* Sang.Dinh.V */ = {
 			isa = PBXGroup;
 			children = (
+				22F6F80A28066867002067DE /* BTCollectionView */,
+				2229F11C28056D70002AA65D /* CollectionView */,
 				22F2B728280038B6002D3A36 /* TableView */,
 				229B3E3827FED3E7007AA852 /* Delegate */,
 				229B3E1527FD6413007AA852 /* TabBar */,
@@ -107,7 +146,6 @@
 				229B3DF027FC2F07007AA852 /* LaunchScreen.storyboard */,
 				229B3DF327FC2F07007AA852 /* Info.plist */,
 				229B3E2C27FD6C99007AA852 /* TabBarViewController.swift */,
-				22F2B72627FEFCF9002D3A36 /* Main.storyboard */,
 			);
 			path = Sang.Dinh.V;
 			sourceTree = "<group>";
@@ -242,6 +280,60 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		22F6F7E1280579E6002067DE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				22F6F7E228057A63002067DE /* CollectionViewCell.swift */,
+				22F6F7E328057A63002067DE /* CollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		22F6F7FE2805B564002067DE /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				22F6F8002805B595002067DE /* HeaderCollectionReusableView.swift */,
+				22F6F8012805B595002067DE /* HeaderCollectionReusableView.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		22F6F7FF2805B56E002067DE /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				22F6F8042805B5EF002067DE /* FooterCollectionReusableView.swift */,
+				22F6F8052805B5EF002067DE /* FooterCollectionReusableView.xib */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		22F6F80A28066867002067DE /* BTCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				22F6F80B28066887002067DE /* BT6 */,
+			);
+			path = BTCollectionView;
+			sourceTree = "<group>";
+		};
+		22F6F80B28066887002067DE /* BT6 */ = {
+			isa = PBXGroup;
+			children = (
+				22F6F81428067817002067DE /* Header */,
+				22F6F81028066944002067DE /* BT6ViewController.swift */,
+				22F6F81128066944002067DE /* BT6ViewController.xib */,
+			);
+			path = BT6;
+			sourceTree = "<group>";
+		};
+		22F6F81428067817002067DE /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				22F6F8152806795F002067DE /* HeaderCRV.swift */,
+				22F6F8162806795F002067DE /* HeaderCRV.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,15 +392,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F6F8032805B595002067DE /* HeaderCollectionReusableView.xib in Resources */,
+				22F6F81328066944002067DE /* BT6ViewController.xib in Resources */,
 				229B3DF227FC2F07007AA852 /* LaunchScreen.storyboard in Resources */,
+				22F6F8072805B5EF002067DE /* FooterCollectionReusableView.xib in Resources */,
 				22F2B73228003DEE002D3A36 /* CustomTableVC.xib in Resources */,
 				22F2B73728005777002D3A36 /* CustomTableViewCell.xib in Resources */,
 				229B3E2327FD652A007AA852 /* HomeVC.xib in Resources */,
+				22F6F8182806795F002067DE /* HeaderCRV.xib in Resources */,
+				22F6F7E0280576D7002067DE /* CollectionVC.xib in Resources */,
 				229B3E4A27FED53A007AA852 /* StudentDetaillVC.xib in Resources */,
 				229B3E4627FED51A007AA852 /* ListStudentsVC.xib in Resources */,
 				229B3E3727FD70BE007AA852 /* FriendsVC.xib in Resources */,
+				22F6F7E528057A64002067DE /* CollectionViewCell.xib in Resources */,
 				229B3DEF27FC2F07007AA852 /* Assets.xcassets in Resources */,
-				22F2B72727FEFCFA002D3A36 /* Main.storyboard in Resources */,
 				229B3E2B27FD6560007AA852 /* VideoVC.xib in Resources */,
 				22F2B72C28003983002D3A36 /* TableTableViewController.xib in Resources */,
 				229B3E2727FD653E007AA852 /* SettingVC.xib in Resources */,
@@ -322,16 +419,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F6F8062805B5EF002067DE /* FooterCollectionReusableView.swift in Sources */,
 				22F2B73128003DEE002D3A36 /* CustomTableVC.swift in Sources */,
 				229B3E4527FED51A007AA852 /* ListStudentsVC.swift in Sources */,
+				22F6F7E428057A64002067DE /* CollectionViewCell.swift in Sources */,
+				22F6F8172806795F002067DE /* HeaderCRV.swift in Sources */,
+				22F6F7DF280576D7002067DE /* CollectionVC.swift in Sources */,
+				22F6F8092805BB48002067DE /* Member.swift in Sources */,
 				229B3E2A27FD6560007AA852 /* VideoVC.swift in Sources */,
 				229B3DFC27FC2F36007AA852 /* BT1.swift in Sources */,
 				229B3E4C27FED7E7007AA852 /* Student.swift in Sources */,
 				229B3E2627FD653E007AA852 /* SettingVC.swift in Sources */,
 				22F2B73628005777002D3A36 /* CustomTableViewCell.swift in Sources */,
 				229B3E0027FC2F76007AA852 /* UserView.swift in Sources */,
+				22F6F8022805B595002067DE /* HeaderCollectionReusableView.swift in Sources */,
 				22F2B72B28003983002D3A36 /* TableTableViewController.swift in Sources */,
 				229B3E2D27FD6C99007AA852 /* TabBarViewController.swift in Sources */,
+				22F6F81228066944002067DE /* BT6ViewController.swift in Sources */,
 				229B3E3627FD70BE007AA852 /* FriendsVC.swift in Sources */,
 				229B3DE627FC2F06007AA852 /* AppDelegate.swift in Sources */,
 				229B3E2227FD652A007AA852 /* HomeVC.swift in Sources */,
@@ -479,7 +583,6 @@
 				INFOPLIST_FILE = Sang.Dinh.V/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,7 +609,6 @@
 				INFOPLIST_FILE = Sang.Dinh.V/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

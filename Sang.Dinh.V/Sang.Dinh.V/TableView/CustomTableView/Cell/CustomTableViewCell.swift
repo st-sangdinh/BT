@@ -24,6 +24,7 @@ class CustomTableViewCell: UITableViewCell {
 
     }
     func setData(_ student: Student){
+      
         avatarIMG.image = UIImage(named: "ava")
         nameLabel.text = student.name
         noteLable.text = "\(student.id)"
