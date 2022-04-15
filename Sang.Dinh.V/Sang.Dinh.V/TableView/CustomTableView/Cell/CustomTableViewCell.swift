@@ -6,14 +6,17 @@
 //
 
 import UIKit
-protocol callButton: class{
-    func callName(name: CustomTableViewCell)
+protocol CustomTableViewCellDelegate: AnyObject {
+    func callName(cell: CustomTableViewCell)
+    func nameMess(cell: CustomTableViewCell)
 }
 class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var avatarIMG: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var noteLable: UILabel!
-    weak var delegate: callButton?
+    
+    weak var delegate: CustomTableViewCellDelegate?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -31,8 +34,10 @@ class CustomTableViewCell: UITableViewCell {
     }
     
     @IBAction func button(_ sender: Any) {
-
-        delegate?.callName(name: self)
+        delegate?.callName(cell: self)
     }
     
+    @IBAction func buttonMess(_ sender: Any) {
+        delegate?.nameMess(cell: self)
+    }
 }

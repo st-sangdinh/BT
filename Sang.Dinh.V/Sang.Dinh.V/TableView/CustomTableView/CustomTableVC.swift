@@ -7,10 +7,16 @@
 
 import UIKit
 
-class CustomTableVC: UIViewController, callButton {
-    func callName(name: CustomTableViewCell) {
-   
-        let callName = name.nameLabel.text
+class CustomTableVC: UIViewController, CustomTableViewCellDelegate {
+    
+    func nameMess(cell: CustomTableViewCell) {
+        let messName = cell.nameLabel.text
+        print("Nhắn tin \(messName ?? "")")
+    }
+    
+    func callName(cell: CustomTableViewCell) {
+//        tableView.indexPath(for: name)
+        let callName = cell.nameLabel.text
         print("Gọi cho \(callName ?? "")")
     }
     

@@ -44,6 +44,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <state key="normal" title="Button" backgroundImage="message.circle" catalog="system"/>
                         <buttonConfiguration key="configuration" style="plain" image="message.fill" catalog="system"/>
+                        <connections>
+                            <action selector="buttonMess:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="5Gg-zJ-CEW"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>

@@ -10,6 +10,10 @@ import UIKit
 class HeaderCollectionReusableView: UICollectionReusableView {
 //    @IBOutlet weak var imgHeader: UIImageView!
 //    @IBOutlet weak var labelHeadr: UILabel!
+    
+    @IBOutlet weak var aaaa: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

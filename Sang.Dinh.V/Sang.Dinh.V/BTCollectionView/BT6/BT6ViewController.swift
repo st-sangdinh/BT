@@ -36,6 +36,7 @@ class BT6ViewController: UIViewController {
     }
     @IBAction func btArrowLeft(_ sender: Any) {
         guard var currentIndexPath = collectionView.indexPathsForVisibleItems.last else { return }
+        print(currentIndexPath)
         currentIndexPath.item -= 1
         if currentIndexPath.item >= 0 {
             self.collectionView.scrollToItem(at: currentIndexPath, at: [.centeredVertically, .centeredHorizontally], animated: true)
@@ -43,6 +44,7 @@ class BT6ViewController: UIViewController {
     }
     @IBAction func btArrowRight(_ sender: Any){
         guard var currentIndexPath = collectionView.indexPathsForVisibleItems.first else { return }
+        print(currentIndexPath)
         currentIndexPath.item += 1
         if currentIndexPath.item < 3 {
             self.collectionView.scrollToItem(at: currentIndexPath, at: [.centeredVertically, .centeredHorizontally], animated: true)
